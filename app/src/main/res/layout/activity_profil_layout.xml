@@ -42,7 +42,7 @@
                 android:layout_below="@id/txt_title"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/shape_foto"
-                android:src="@drawable/x4"
+                android:src="@drawable/x1"
                 android:layout_centerInParent="true" />
 
             <TextView
