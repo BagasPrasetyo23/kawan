@@ -11,6 +11,8 @@
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/ic_road.xml" value="0.1" />
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/ic_time.xml" value="0.124" />
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/ic_time_red.xml" value="0.124" />
+        <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/shape_forgot.xml" value="0.136" />
+        <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/shape_foto.xml" value="0.136" />
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/shape_white.xml" value="0.1" />
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/shape_white2.xml" value="0.1" />
         <entry key="..\:/kawan/app/src/main/res/drawable/back.xml" value="0.111" />
@@ -81,7 +83,7 @@
         <entry key="..\:/kawan/app/src/main/res/layout/activity_profil_layout.xml" value="0.17144078666096624" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_pulaupasumpahan.xml" value="0.18426678067550234" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_pulausirandah.xml" value="0.18426678067550234" />
-        <entry key="..\:/kawan/app/src/main/res/layout/activity_register.xml" value="0.17144078666096624" />
+        <entry key="..\:/kawan/app/src/main/res/layout/activity_register.xml" value="0.2" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_splash_screen.xml" value="0.17144078666096624" />
       </map>
     </option>
