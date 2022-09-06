@@ -2,7 +2,6 @@ package com.project.kawan
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.transition.Slide
 import com.denzcoskun.imageslider.ImageSlider
 import com.denzcoskun.imageslider.constants.ScaleTypes
 import com.denzcoskun.imageslider.models.SlideModel
@@ -15,7 +14,7 @@ class DetailKulinerEsDurianGantiNanLamoActivity : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.esduriangantinanlamo))
+        imageList.add(SlideModel(R.drawable.esduriangantinanlamo0))
         imageList.add(SlideModel(R.drawable.esduriangantinanlamo1))
         imageList.add(SlideModel(R.drawable.esduriangantinanlamo2))
         imageList.add(SlideModel(R.drawable.esduriangantinanlamo3))
