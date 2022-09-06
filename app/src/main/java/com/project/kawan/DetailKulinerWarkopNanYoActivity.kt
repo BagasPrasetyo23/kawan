@@ -1,4 +1,4 @@
-package com.rayhan.kawan
+package com.project.kawan
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

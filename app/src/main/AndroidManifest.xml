@@ -13,14 +13,56 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".DetailKulinerJamsitActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailKulinerEsDurianGantiNanLamoActivity"
+            android:exported="true" />
+        <activity
             android:name=".DetailKulinerWarkopNanYoActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="true" />
+        <activity
+            android:name=".DetailKulinerSateDDActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailKulinerPauhPiamanActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailKulinerKatupekPitalahActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailKulinerEsDurianIkoGantinyoActivity"
+            android:exported="true" >
         </activity>
+        <activity
+            android:name=".DetailKulinerLamunOmbakActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MoreHighlightWisataActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ForgotPassword1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".More_Hightlight_Kuliner_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPassword2Activity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ProfilLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
         <activity
             android:name=".pulaupasumpahan"
             android:exported="false" />
@@ -61,7 +103,11 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
