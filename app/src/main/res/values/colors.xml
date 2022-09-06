@@ -10,5 +10,8 @@
     <color name="grey">#C7C7C7</color>
     <color name="grey_1">#8A8A8A</color>
     <color name="bluesweet">#14BADF</color>
-    <color name="red">#EB1D36</color>
+    <color name="red">#EC2D2D</color>
+    <color name="greyF2">#F2F2F2</color>
+    <color name="greyF8">#F8F8F8</color>
+    <color name="greyA8">#A8A8A8</color>
 </resources>
