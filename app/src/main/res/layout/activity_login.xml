@@ -98,6 +98,7 @@
             </LinearLayout>
 
             <TextView
+                android:id="@+id/forgot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
@@ -117,25 +118,31 @@
                 android:textAllCaps="false"
                 android:textColor="#fff"
                 android:textSize="18sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginRight="20dp"
-                android:text="Belum punya akun?" />
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    android:text="Belum punya akun?" />
 
-            <TextView
-                android:id="@+id/tv_daftar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="63dp"
-                android:layout_marginTop="-19dp"
-                android:text="Daftar"
-                android:textAlignment="center"
-                android:textColor="@color/bluesweet"
-                android:textStyle="bold" />
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tv_daftar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Daftar"
+                    android:textAlignment="center"
+                    android:textColor="@color/bluesweet"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
         </LinearLayout>
     </RelativeLayout>
 </RelativeLayout>
