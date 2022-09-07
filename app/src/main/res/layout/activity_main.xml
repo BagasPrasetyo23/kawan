@@ -25,13 +25,14 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginTop="66dp"
                 android:layout_marginLeft="16dp">
+
                 <ImageView
                     android:id="@+id/imgprofile"
-                    android:layout_centerVertical="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
                     android:background="@drawable/rounded"
-                    android:src="@drawable/profile_mdpi"/>
+                    android:src="@drawable/profile_mdpi" />
                 <RelativeLayout
                     android:id="@+id/profile"
                     android:layout_toRightOf="@id/imgprofile"

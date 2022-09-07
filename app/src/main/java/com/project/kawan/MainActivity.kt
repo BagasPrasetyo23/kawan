@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val imgprofile: ImageView = findViewById(R.id.imgprofile)
+        imgprofile.setOnClickListener(this)
         val lyrsearch: RelativeLayout = findViewById(R.id.lyrsearch)
         lyrsearch.setOnClickListener(this)
         val txtlihatsemua :TextView = findViewById(R.id.txtlihatsemua)
@@ -48,6 +50,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         if (v != null) {
             when (v.id) {
+                R.id.imgprofile -> {
+                    val pindahIntent = Intent(this, ProfilLayoutActivity::class.java)
+                    startActivity(pindahIntent)
+                }
                 R.id.card1 -> {
                     val pindahIntent = Intent(this, airterjuntampuruang::class.java)
                     startActivity(pindahIntent)
