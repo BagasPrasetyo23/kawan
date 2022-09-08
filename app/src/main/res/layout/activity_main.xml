@@ -512,7 +512,7 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/card4"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:layout_marginLeft="10dp"
                             app:cardBackgroundColor="@color/white"
                             app:cardCornerRadius="20dp"
@@ -524,14 +524,14 @@
 
                                 <ImageView
                                     android:id="@+id/imgpasir3"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="match_parent"
-                                    android:background="@drawable/airterjunsarasah" />
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/sirandah0" />
 
                                 <RelativeLayout
                                     android:id="@+id/textpasir3"
                                     android:layout_width="135dp"
-                                    android:layout_height="wrap_content"
+                                    android:layout_height="match_parent"
                                     android:layout_below="@+id/imgpasir3"
                                     android:layout_centerHorizontal="true"
                                     android:layout_centerVertical="true"
@@ -545,19 +545,7 @@
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
                                         android:layout_centerHorizontal="true"
-                                        android:text="Air Terjun"
-                                        android:textColor="@color/black"
-                                        android:textSize="14sp"
-                                        android:textStyle="bold" />
-
-                                    <TextView
-                                        android:id="@+id/lubuaksarasah"
-                                        android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
-                                        android:layout_below="@id/airterjun3"
-                                        android:layout_centerHorizontal="true"
-                                        android:layout_centerVertical="true"
-                                        android:text="Sarasah"
+                                        android:text="Pulau Sirandah"
                                         android:textColor="@color/black"
                                         android:textSize="14sp"
                                         android:textStyle="bold" />
@@ -566,16 +554,17 @@
                                         android:id="@+id/txtkm3"
                                         android:layout_width="match_parent"
                                         android:layout_height="wrap_content"
-                                        android:layout_below="@+id/lubuaksarasah"
-                                        android:layout_marginTop="4dp"
+                                        android:layout_below="@+id/airterjun3"
+                                        android:layout_marginTop="25dp"
                                         android:text="5.0 km"
                                         android:textColor="#8A8A8A"
                                         android:textSize="12sp" />
 
                                     <RelativeLayout
                                         android:id="@+id/jam3"
+                                        android:layout_alignParentBottom="true"
                                         android:layout_width="match_parent"
-                                        android:layout_height="wrap_content"
+                                        android:layout_height="match_parent"
                                         android:layout_below="@+id/txtkm3"
                                         android:layout_centerHorizontal="true"
                                         android:layout_centerVertical="true"
