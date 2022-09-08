@@ -3,7 +3,9 @@ package com.project.kawan
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.method.HideReturnsTransformationMethod
 import android.view.View
+import android.widget.EditText
 import android.widget.ImageView
 import android.widget.TextView
 

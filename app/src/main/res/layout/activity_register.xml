@@ -140,19 +140,19 @@
                 android:layout_marginTop="10dp"
                 android:text="Ulangi Kata Sandi" />
 
-            <EditText
-                android:id="@+id/edtResandi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/txtResandi"
-                android:layout_marginLeft="35dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginRight="25dp"
-                android:background="@drawable/button_shape"
-                android:drawableRight="@drawable/ic_show"
-                android:hint="Masukan kata sandi..."
-                android:inputType="textPassword"
-                android:padding="10dp" />
+                <EditText
+                    android:layout_below="@+id/txtResandi"
+                    android:layout_marginLeft="35dp"
+                    android:id="@+id/edtResandi"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="25dp"
+                    android:background="@drawable/button_shape"
+                    android:hint="Masukan kata sandi..."
+                    android:drawableRight="@drawable/ic_show"
+                    android:inputType="textPassword"
+                    android:padding="10dp" />
 
             <Button
                 android:id="@+id/btnRegister"
