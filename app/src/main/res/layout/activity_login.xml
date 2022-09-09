@@ -84,16 +84,6 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp">
-
-                <com.scottyab.showhidepasswordedittext.ShowHidePasswordEditText
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/button_shape"
-                    android:hint="masukan password..."
-                    android:layout_marginLeft="5dp"
-                    android:layout_marginRight="5dp"
-                    android:inputType="textVisiblePassword"
-                    android:padding="10dp"/>
             </LinearLayout>
 
             <TextView
