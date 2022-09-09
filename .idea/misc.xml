@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/background.xml" value="0.124" />
+        <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/button_background.xml" value="0.2105" />
+        <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/button_shape.xml" value="0.2105" />
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/ic_back.xml" value="0.1" />
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/ic_back2.xml" value="0.124" />
         <entry key="..\:/kawan/app/src/main/res/drawable-mdpi/ic_dot.xml" value="0.1" />
@@ -48,12 +50,13 @@
         <entry key="..\:/kawan/app/src/main/res/drawable/putih.xml" value="0.105" />
         <entry key="..\:/kawan/app/src/main/res/drawable/rounded.xml" value="0.1" />
         <entry key="..\:/kawan/app/src/main/res/drawable/search.xml" value="0.178" />
+        <entry key="..\:/kawan/app/src/main/res/drawable/shape_bt.xml" value="0.2105" />
         <entry key="..\:/kawan/app/src/main/res/drawable/top.xml" value="0.1" />
         <entry key="..\:/kawan/app/src/main/res/layout-land/activity_login.xml" value="0.18" />
         <entry key="..\:/kawan/app/src/main/res/layout-land/activity_more_highlight_wisata.xml" value="0.3587002992731937" />
         <entry key="..\:/kawan/app/src/main/res/layout-land/activity_more_hightlight_kuliner.xml" value="0.3587002992731937" />
         <entry key="..\:/kawan/app/src/main/res/layout-land/activity_profil_layout.xml" value="0.3587002992731937" />
-        <entry key="..\:/kawan/app/src/main/res/layout-land/activity_register.xml" value="0.3587002992731937" />
+        <entry key="..\:/kawan/app/src/main/res/layout-land/activity_register.xml" value="0.2836710369487485" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_airterjunlubuakhitam.xml" value="0.5" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_airterjunlubuakrantiang.xml" value="0.18193330519206416" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_airterjunsarasah.xml" value="0.18426678067550234" />
@@ -69,8 +72,9 @@
         <entry key="..\:/kawan/app/src/main/res/layout/activity_detail_kuliner_warkop_nan_yo.xml" value="0.2" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_forgot_password1.xml" value="0.25" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_forgot_password2.xml" value="0.18426678067550234" />
+        <entry key="..\:/kawan/app/src/main/res/layout/activity_forgot_password3.xml" value="0.18426678067550234" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_jamsit.xml" value="0.18426678067550234" />
-        <entry key="..\:/kawan/app/src/main/res/layout/activity_login.xml" value="0.18426678067550234" />
+        <entry key="..\:/kawan/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_main.xml" value="0.2843007915567282" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_main10.xml" value="0.18426678067550234" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_main11.xml" value="0.18426678067550234" />
@@ -92,7 +96,7 @@
         <entry key="..\:/kawan/app/src/main/res/layout/activity_profil_layout.xml" value="0.22" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_pulaupasumpahan.xml" value="0.18426678067550234" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_pulausirandah.xml" value="0.18426678067550234" />
-        <entry key="..\:/kawan/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/kawan/app/src/main/res/layout/activity_register.xml" value="0.17777777777777778" />
         <entry key="..\:/kawan/app/src/main/res/layout/activity_splash_screen.xml" value="0.18426678067550234" />
       </map>
     </option>
