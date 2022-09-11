@@ -7,37 +7,39 @@
     android:layout_height="match_parent"
     tools:context=".MoreHighlightWisataActivity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
-        <RelativeLayout
+        <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:id="@+id/titleHighlight"
-            android:orientation="vertical"
-            android:background="@color/bluesweet" >
-
-            <ImageView
-                android:id="@+id/btnBack"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="22dp"
-                android:src="@drawable/ic_back" />
-
-            <TextView
+            android:layout_height="wrap_content"
+            android:background="@color/bluesweet">
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_title"
-                android:layout_marginTop="22dp"
-                android:gravity="center"
-                android:text="Highlight Wisata"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </RelativeLayout>
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp">
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                   android:background="@drawable/ic_back" />
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Highlight Wisata"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
 
         <ScrollView
             android:layout_width="match_parent"
@@ -895,5 +897,5 @@
                 </GridLayout>
             </LinearLayout>
         </ScrollView>
-    </RelativeLayout>
+    </LinearLayout>
 </LinearLayout>

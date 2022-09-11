@@ -12,7 +12,7 @@ class ForgotPassword1Activity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot_password1)
-        val btn_back_forgot1: ImageView = findViewById(R.id.btn_back_forgot1)
+        val btn_back_forgot1: Button = findViewById(R.id.back)
         btn_back_forgot1.setOnClickListener(this)
         val btnForgot1: Button = findViewById(R.id.btnForgot1)
         btnForgot1.setOnClickListener(this)
@@ -24,7 +24,7 @@ class ForgotPassword1Activity : AppCompatActivity(), View.OnClickListener {
                     val pindahIntent = Intent(this,ForgotPassword2Activity::class.java)
                     startActivity(pindahIntent)
                 }
-                R.id.btn_back_forgot1->{
+                R.id.back->{
                     val pindahIntent = Intent(this,LoginActivity::class.java)
                     startActivity(pindahIntent)
                 }

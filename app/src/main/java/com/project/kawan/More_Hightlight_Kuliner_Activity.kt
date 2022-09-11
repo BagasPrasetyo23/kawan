@@ -11,13 +11,13 @@ class More_Hightlight_Kuliner_Activity : AppCompatActivity(), View.OnClickListen
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_more_hightlight_kuliner)
-        val btn_back_profil : ImageView = findViewById(R.id.btn_back_profil)
-        btn_back_profil.setOnClickListener(this)
+        val back : Button = findViewById(R.id.back)
+        back.setOnClickListener(this)
     }
     override fun onClick(v: View?) {
         if (v !=null){
             when (v.id){
-                R.id.btn_back_profil ->{
+                R.id.back ->{
                     val pindahIntent = Intent(this,MainActivity::class.java)
                     startActivity(pindahIntent)
                 }

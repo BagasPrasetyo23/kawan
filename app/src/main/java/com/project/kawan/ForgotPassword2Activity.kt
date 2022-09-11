@@ -7,10 +7,7 @@ import android.os.Bundle
 import android.view.KeyEvent
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import android.widget.EditText
-import android.widget.ImageView
-import android.widget.LinearLayout
-import android.widget.Toast
+import android.widget.*
 import androidx.core.widget.addTextChangedListener
 
 class ForgotPassword2Activity : AppCompatActivity(),View.OnClickListener {
@@ -50,8 +47,8 @@ class ForgotPassword2Activity : AppCompatActivity(),View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_forgot_password2)
-        val btn_back_forgot1: ImageView = findViewById(R.id.btn_back_forgot1)
-        btn_back_forgot1.setOnClickListener(this)
+        val back: Button = findViewById(R.id.back)
+        back.setOnClickListener(this)
         setListener()
 
         initFocus()
@@ -59,7 +56,7 @@ class ForgotPassword2Activity : AppCompatActivity(),View.OnClickListener {
     override fun onClick(v: View?) {
         if (v !=null){
             when (v.id){
-                R.id.btn_back_forgot1->{
+                R.id.back->{
                     val pindahIntent = Intent(this,ForgotPassword1Activity::class.java)
                     startActivity(pindahIntent)
                 }

@@ -11,7 +11,7 @@ class MoreHighlightWisataActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_more_highlight_wisata)
-        val btnBack : ImageView = findViewById(R.id.btnBack)
+        val btnBack : Button= findViewById(R.id.btnBack)
         btnBack.setOnClickListener(this)
     }
     override fun onClick(v: View?) {
