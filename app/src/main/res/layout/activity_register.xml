@@ -19,7 +19,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 android:layout_marginRight="16dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="15dp"
                 android:layout_marginLeft="16dp">
                 <androidx.appcompat.widget.Toolbar
                     android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                         app:drawable_hide="@drawable/ic_hide"
                         app:drawable_show="@drawable/ic_show"/>
                     <Button
-
+                        android:id="@+id/btndaftar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"

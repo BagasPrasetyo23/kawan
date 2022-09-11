@@ -21,14 +21,15 @@
                 android:background="@drawable/back"
                 android:layout_marginTop="16dp"
                 android:layout_marginLeft="16dp"/>
+
             <com.denzcoskun.imageslider.ImageSlider
-                android:layout_centerHorizontal="true"
+                android:id="@+id/imageslider"
                 android:layout_width="match_parent"
                 android:layout_height="375dp"
-                android:id="@+id/imageslider"
+                android:layout_centerHorizontal="true"
                 app:iss_selected_dot="@drawable/indicator_selected"
                 app:iss_unselected_dot="@drawable/indicator_unselected"
-                tools:ignore="MissingConstraints"/>
+                tools:ignore="MissingConstraints" />
             <RelativeLayout
                 android:id="@+id/lyr3"
                 android:layout_width="match_parent"
