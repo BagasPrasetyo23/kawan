@@ -92,14 +92,14 @@
                 android:layout_width="365dp"
                 android:layout_height="48dp">
 
-                <SearchView
+                <androidx.appcompat.widget.SearchView
                     android:id="@+id/search"
                     android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:queryHint="Temukan kuliner atau tempat wisata"
-                    android:iconifiedByDefault="false"
+                    app:queryHint="Temukan kuliner atau tempat wisata"
+                    app:iconifiedByDefault="false"
                     android:background="@drawable/background_search"/>
             </RelativeLayout>
 
