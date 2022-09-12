@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.ImageView
+import androidx.cardview.widget.CardView
 
 class More_Hightlight_Kuliner_Activity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,21 +14,21 @@ class More_Hightlight_Kuliner_Activity : AppCompatActivity(), View.OnClickListen
         setContentView(R.layout.activity_more_hightlight_kuliner)
         val back : Button = findViewById(R.id.back)
         back.setOnClickListener(this)
-        val card1 : Button = findViewById(R.id.card1)
+        val card1 : CardView = findViewById(R.id.card1)
         card1.setOnClickListener(this)
-        val card2 : Button = findViewById(R.id.card2)
+        val card2 : CardView = findViewById(R.id.card2)
         card2.setOnClickListener(this)
-        val card3 : Button = findViewById(R.id.card3)
+        val card3 : CardView = findViewById(R.id.card3)
         card3.setOnClickListener(this)
-        val card4 : Button = findViewById(R.id.card4)
+        val card4 : CardView = findViewById(R.id.card4)
         card4.setOnClickListener(this)
-        val card5 : Button = findViewById(R.id.card5)
+        val card5 : CardView = findViewById(R.id.card5)
         card5.setOnClickListener(this)
-        val card6 : Button = findViewById(R.id.card6)
+        val card6 : CardView = findViewById(R.id.card6)
         card6.setOnClickListener(this)
-        val card7 : Button = findViewById(R.id.card7)
+        val card7 :CardView = findViewById(R.id.card7)
         card7.setOnClickListener(this)
-        val card8 : Button = findViewById(R.id.card8)
+        val card8 : CardView = findViewById(R.id.card8)
         card8.setOnClickListener(this)
     }
     override fun onClick(v: View?) {
