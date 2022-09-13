@@ -14,10 +14,11 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@drawable/top"/>
+                android:background="@drawable/top" />
             <RelativeLayout
                 android:id="@+id/lyrprofile"
                 android:layout_width="match_parent"
@@ -94,13 +95,13 @@
 
                 <androidx.appcompat.widget.SearchView
                     android:id="@+id/search"
-                    android:layout_centerVertical="true"
-                    android:layout_centerHorizontal="true"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:queryHint="Temukan kuliner atau tempat wisata"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/background_search"
                     app:iconifiedByDefault="false"
-                    android:background="@drawable/background_search"/>
+                    app:queryBackground="@null"
+                    app:queryHint="Temukan kuliner atau tempat wisata" />
             </RelativeLayout>
 
             <RelativeLayout
@@ -137,11 +138,12 @@
                         android:id="@+id/lyrwisata"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
+
                         <ImageView
                             android:id="@+id/imgwisata"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/wisata_mdpi"/>
+                            android:src="@drawable/wisata_mdpi" />
                         <TextView
                             android:layout_marginTop="8dp"
                             android:layout_below="@id/imgwisata"
@@ -160,12 +162,13 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentEnd="true">
+
                         <ImageView
-                            android:layout_centerHorizontal="true"
                             android:id="@+id/imgkuliner"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/kuliner_mdpi"/>
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/kuliner_mdpi" />
                         <TextView
                             android:layout_centerVertical="true"
                             android:layout_centerHorizontal="true"

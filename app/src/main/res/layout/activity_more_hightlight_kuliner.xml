@@ -65,7 +65,8 @@
                     android:rowCount="1"
                     android:columnCount="2"
                     android:alignmentMode="alignMargins"
-                    android:columnOrderPreserved="false">
+                    android:columnOrderPreserved="false"
+                    android:layout_marginTop="10dp">
 
                     <androidx.cardview.widget.CardView
                         android:id="@+id/card1"
@@ -138,13 +139,13 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
+                                        android:layout_gravity="center"
                                         android:textSize="12sp"
                                         android:layout_marginLeft="4dp"
                                         android:textColor="#14BADF"/>
@@ -228,14 +229,14 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
                                         android:textColor="#14BADF"/>
 
@@ -318,16 +319,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -408,16 +409,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -497,18 +498,17 @@
                                     <ImageView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_gravity="center"
-                                        android:layout_marginLeft="5dp"
-                                        android:src="@drawable/ic_time" />
+                                        android:src="@drawable/ic_time"
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:text="Buka"
+                                        android:textSize="12sp"
                                         android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:text="Buka"
-                                        android:textColor="#14BADF"
-                                        android:textSize="12sp" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -588,16 +588,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -678,16 +678,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -768,14 +768,14 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
                                         android:textColor="#14BADF"/>
 
@@ -786,8 +786,6 @@
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
-
-
                 </GridLayout>
 
 

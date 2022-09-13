@@ -5,17 +5,16 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.ImageView
-import androidx.cardview.widget.CardView
+import android.widget.SearchView
 
-class ProfilLayoutActivity : AppCompatActivity(), View.OnClickListener {
+class KulinerActivity : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profil_layout)
+        setContentView(R.layout.activity_kuliner)
         val back: Button = findViewById(R.id.back)
         back.setOnClickListener(this)
-        val btn_edt_profil: Button = findViewById(R.id.btn_edt_profil)
-        btn_edt_profil.setOnClickListener(this)
+        val srckuliner: androidx.appcompat.widget.SearchView= findViewById(R.id.srckuliner)
+        srckuliner.setOnClickListener(this)
     }
     override fun onClick(v: View?) {
         if (v != null) {
@@ -24,8 +23,8 @@ class ProfilLayoutActivity : AppCompatActivity(), View.OnClickListener {
                     val pindahIntent = Intent(this, MainActivity::class.java)
                     startActivity(pindahIntent)
                 }
-                R.id.btn_edt_profil -> {
-                    val pindahIntent = Intent(this, editprofile::class.java)
+                R.id.srckuliner -> {
+                    val pindahIntent = Intent(this, pencariankuliner::class.java)
                     startActivity(pindahIntent)
                 }
             }

@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pencarian1">
+    tools:context=".pencarianwisata">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -32,12 +32,12 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
-                        <ImageView
-                            android:id="@+id/img1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                        <Button
+                            android:id="@+id/back"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
                             android:layout_centerVertical="true"
-                            android:src="@drawable/ic_ic_arrow_back_black" />
+                            android:background="@drawable/ic_ic_arrow_back_black" />
 
                         <TextView
                             android:id="@+id/txt1"
@@ -159,7 +159,7 @@
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:text="ES Durian Iko Gantinyo"
+                                            android:text="Masjid Raya Sumbar"
                                             android:textColor="#8A8A8A"
                                             android:textSize="12sp" />
                                     </RelativeLayout>
@@ -180,10 +180,11 @@
                                         android:layout_marginRight="12dp"
                                         android:layout_marginTop="8dp"
                                         android:layout_marginBottom="8dp">
+
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:text="Air Terjun Sarasah"
+                                            android:text="Air Terjun Lubuak Hitam"
                                             android:textColor="#8A8A8A"
                                             android:textSize="12sp" />
                                     </RelativeLayout>
@@ -207,7 +208,7 @@
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:text="Rumah Makan Pauh Piaman"
+                                            android:text="Jembatan Siti Nurbaya"
                                             android:textColor="#8A8A8A"
                                             android:textSize="12sp" />
                                     </RelativeLayout>
@@ -231,7 +232,7 @@
                                         <TextView
                                             android:layout_width="match_parent"
                                             android:layout_height="wrap_content"
-                                            android:text="Katupek Pitalah Purus 3"
+                                            android:text="Pulau Sirandah"
                                             android:textColor="#8A8A8A"
                                             android:textSize="12sp" />
                                     </RelativeLayout>
@@ -394,7 +395,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
                         <RelativeLayout
-                            android:id="@+id/imgrumahmakanpauhpiaman"
+                            android:id="@+id/Masjidrayasumbar"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true">
@@ -405,12 +406,12 @@
                                 <ImageView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/rumahmakanpauhpiaman"/>
+                                    android:background="@drawable/masjidrayasumbar"/>
                             </androidx.cardview.widget.CardView>
                         </RelativeLayout>
 
                         <RelativeLayout
-                            android:layout_toRightOf="@+id/imgrumahmakanpauhpiaman"
+                            android:layout_toRightOf="@+id/Masjidrayasumbar"
                             android:layout_width="match_parent"
                             android:layout_centerVertical="true"
                             android:layout_centerHorizontal="true"
@@ -421,15 +422,16 @@
                                 android:layout_centerHorizontal="true"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent">
+
                                 <TextView
-                                    android:layout_centerHorizontal="true"
                                     android:id="@+id/textrumahmakanpauhpiaman"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Rumah Makan Pauh Piaman"
+                                    android:layout_centerHorizontal="true"
+                                    android:text="Masjid Raya Sumbar"
+                                    android:textColor="@color/black"
                                     android:textSize="14sp"
-                                    android:textColor="@color/grey_1"
-                                    android:textStyle="bold"/>
+                                    android:textStyle="bold" />
                                 <TextView
                                     android:id="@+id/textkm1"
                                     android:layout_centerVertical="true"
@@ -453,7 +455,7 @@
                                         android:layout_centerVertical="true"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:src="@drawable/ic_clock_tutup"/>
+                                        android:src="@drawable/ic_clock_buka"/>
 
                                     <TextView
                                         android:layout_width="match_parent"
@@ -461,8 +463,8 @@
                                         android:layout_centerVertical="true"
                                         android:layout_marginLeft="5dp"
                                         android:layout_toRightOf="@+id/imgclock1"
-                                        android:text="Tutup"
-                                        android:textColor="@color/red"
+                                        android:text="Bukas"
+                                        android:textColor="@color/bluesweet"
                                         android:textSize="13sp" />
                                 </RelativeLayout>
                             </RelativeLayout>
@@ -501,7 +503,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
                         <RelativeLayout
-                            android:id="@+id/imgesdurian"
+                            android:id="@+id/pulausirandah"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true">
@@ -512,12 +514,12 @@
                                 <ImageView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/esdurianikogantinyo"/>
+                                    android:background="@drawable/pulausirandah"/>
                             </androidx.cardview.widget.CardView>
                         </RelativeLayout>
 
                         <RelativeLayout
-                            android:layout_toRightOf="@+id/imgesdurian"
+                            android:layout_toRightOf="@+id/pulausirandah"
                             android:layout_width="match_parent"
                             android:layout_centerVertical="true"
                             android:layout_centerHorizontal="true"
@@ -533,7 +535,7 @@
                                     android:id="@+id/textimgesdurian"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Es Durian Iko Gantinyo"
+                                    android:text="Pulau Sirandah"
                                     android:textSize="14sp"
                                     android:textColor="@color/black"
                                     android:textStyle="bold"/>
@@ -825,7 +827,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent">
                         <RelativeLayout
-                            android:id="@+id/imgkatupekpitalahpurus3"
+                            android:id="@+id/lubuakHitam"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_centerVertical="true">
@@ -836,12 +838,12 @@
                                 <ImageView
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/katupekpitalahpurus3"/>
+                                    android:background="@drawable/lubuakhitam"/>
                             </androidx.cardview.widget.CardView>
                         </RelativeLayout>
 
                         <RelativeLayout
-                            android:layout_toRightOf="@+id/imgkatupekpitalahpurus3"
+                            android:layout_toRightOf="@+id/lubuakHitam"
                             android:layout_width="match_parent"
                             android:layout_centerVertical="true"
                             android:layout_centerHorizontal="true"
@@ -857,7 +859,7 @@
                                     android:id="@+id/textkatupekpitalahpurus3"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:text="Katupek Pitalah Purus 3"
+                                    android:text="Air terjun Lubuak Hitam"
                                     android:textSize="14sp"
                                     android:textColor="@color/grey_1"
                                     android:textStyle="bold"/>

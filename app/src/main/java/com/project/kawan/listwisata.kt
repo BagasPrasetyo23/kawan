@@ -5,27 +5,28 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
-import android.widget.ImageView
+import android.widget.SearchView
 import androidx.cardview.widget.CardView
 
-class ProfilLayoutActivity : AppCompatActivity(), View.OnClickListener {
+class listwisata : AppCompatActivity(), View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_profil_layout)
-        val back: Button = findViewById(R.id.back)
-        back.setOnClickListener(this)
-        val btn_edt_profil: Button = findViewById(R.id.btn_edt_profil)
-        btn_edt_profil.setOnClickListener(this)
+        setContentView(R.layout.activity_listwisata)
+        val btnsrcwisata: Button = findViewById(R.id.btnsrcwisata)
+        btnsrcwisata.setOnClickListener(this)
+
+        val srcwisata: androidx.appcompat.widget.SearchView = findViewById(R.id.srcwisata)
+        srcwisata.setOnClickListener(this)
     }
     override fun onClick(v: View?) {
         if (v != null) {
             when (v.id) {
-                R.id.back -> {
+                R.id.btnsrcwisata -> {
                     val pindahIntent = Intent(this, MainActivity::class.java)
                     startActivity(pindahIntent)
                 }
-                R.id.btn_edt_profil -> {
-                    val pindahIntent = Intent(this, editprofile::class.java)
+                R.id.srcwisata -> {
+                    val pindahIntent = Intent(this, pencarianwisata::class.java)
                     startActivity(pindahIntent)
                 }
             }

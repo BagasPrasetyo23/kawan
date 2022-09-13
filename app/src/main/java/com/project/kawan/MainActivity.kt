@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val imgprofile: ImageView = findViewById(R.id.imgprofile)
         imgprofile.setOnClickListener(this)
+        val imgwisata: ImageView = findViewById(R.id.imgwisata)
+        imgwisata.setOnClickListener(this)
+        val imgkuliner: ImageView = findViewById(R.id.imgkuliner)
+        imgkuliner.setOnClickListener(this)
         val lyrsearch: RelativeLayout = findViewById(R.id.lyrsearch)
         lyrsearch.setOnClickListener(this)
         val txtlihatsemua :TextView = findViewById(R.id.txtlihatsemua)
@@ -52,6 +56,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             when (v.id) {
                 R.id.imgprofile -> {
                     val pindahIntent = Intent(this, ProfilLayoutActivity::class.java)
+                    startActivity(pindahIntent)
+                }
+                R.id.imgwisata -> {
+                    val pindahIntent = Intent(this, listwisata::class.java)
+                    startActivity(pindahIntent)
+                }
+                R.id.imgkuliner -> {
+                    val pindahIntent = Intent(this, KulinerActivity::class.java)
                     startActivity(pindahIntent)
                 }
                 R.id.card1 -> {

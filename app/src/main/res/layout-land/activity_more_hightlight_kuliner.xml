@@ -58,9 +58,11 @@
                     android:rowCount="1"
                     android:columnCount="4"
                     android:alignmentMode="alignMargins"
-                    android:columnOrderPreserved="false">
+                    android:columnOrderPreserved="false"
+                    android:layout_marginTop="10dp">
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card1"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
@@ -130,13 +132,13 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp" />
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
+                                        android:layout_gravity="center"
                                         android:textSize="12sp"
                                         android:layout_marginLeft="4dp"
                                         android:textColor="#14BADF"/>
@@ -150,6 +152,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card2"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
@@ -187,7 +190,7 @@
                                         android:id="@+id/txt_nama2"
                                         android:layout_width="match_parent"
                                         android:layout_height="35dp"
-                                        android:text="Rumah Makan Pauh Piaman"
+                                        android:text="katupek Pitalah Purus 3"
                                         android:layout_marginTop="10dp"
                                         android:layout_marginLeft="5dp"
                                         android:textSize="14sp"
@@ -219,14 +222,14 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
                                         android:textColor="#14BADF"/>
 
@@ -239,6 +242,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card3"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
@@ -308,16 +312,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -328,6 +332,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card4"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
@@ -397,16 +402,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -417,12 +422,13 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card5"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_columnWeight="1"
                         android:layout_rowWeight="1"
-                        app:cardElevation="5dp"
+                        android:layout_columnWeight="1"
                         app:cardCornerRadius="5dp"
+                        app:cardElevation="5dp"
                         app:cardUseCompatPadding="true">
 
                         <RelativeLayout
@@ -435,13 +441,13 @@
                                 android:id="@+id/img_5"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/warungkopi"
-                                android:layout_gravity="center"/>
+                                android:layout_gravity="center"
+                                android:src="@drawable/warungkopi" />
 
                             <RelativeLayout
-                                android:layout_below="@+id/img_5"
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content">
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/img_5">
 
                                 <RelativeLayout
                                     android:id="@+id/frame_5"
@@ -454,21 +460,21 @@
                                         android:id="@+id/txt_nama5"
                                         android:layout_width="match_parent"
                                         android:layout_height="35dp"
-                                        android:text="Warung Kopi Nan Yo"
-                                        android:layout_marginTop="10dp"
                                         android:layout_marginLeft="5dp"
-                                        android:textSize="14sp"
+                                        android:layout_marginTop="10dp"
+                                        android:text="Warung Kopi Nan Yo"
                                         android:textColor="@color/black"
-                                        android:textStyle="bold"/>
+                                        android:textSize="14sp"
+                                        android:textStyle="bold" />
 
                                     <TextView
                                         android:id="@+id/txt_jarak5"
-                                        android:layout_below="@id/txt_nama5"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_below="@id/txt_nama5"
+                                        android:layout_marginLeft="5dp"
                                         android:layout_marginTop="5dp"
                                         android:text="5.0 km"
-                                        android:layout_marginLeft="5dp"
                                         android:textSize="14sp" />
 
                                 </RelativeLayout>
@@ -476,26 +482,26 @@
                                 <LinearLayout
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="6dp"
                                     android:layout_below="@id/frame_5"
+                                    android:layout_marginLeft="5dp"
                                     android:layout_marginTop="12dp"
+                                    android:layout_marginRight="6dp"
                                     android:orientation="horizontal">
 
                                     <ImageView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -506,6 +512,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card6"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
@@ -522,10 +529,9 @@
 
                             <ImageView
                                 android:id="@+id/img_6"
-                                android:layout_width="match_parent"
+                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/esduriangantinanlamo0"
-                                android:layout_gravity="center"/>
+                                android:src="@drawable/esduriangantinanlamo" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_6"
@@ -575,16 +581,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -595,6 +601,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card7"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
@@ -664,16 +671,16 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
-                                        android:textColor="#14BADF" />
+                                        android:textColor="#14BADF"/>
 
                                 </LinearLayout>
 
@@ -684,6 +691,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        android:id="@+id/card8"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_columnWeight="1"
@@ -753,14 +761,14 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:src="@drawable/ic_time"
-                                        android:layout_marginLeft="5dp"
-                                        android:layout_marginTop="3dp"/>
+                                        android:layout_marginLeft="5dp"/>
 
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:text="Buka"
                                         android:textSize="12sp"
+                                        android:layout_gravity="center"
                                         android:layout_marginLeft="4dp"
                                         android:textColor="#14BADF"/>
 
@@ -771,8 +779,6 @@
                         </RelativeLayout>
 
                     </androidx.cardview.widget.CardView>
-
-
                 </GridLayout>
 
 

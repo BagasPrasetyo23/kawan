@@ -8,11 +8,26 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
+        android:label="Kawan"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:label="Kawan"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31">
+        <activity
+            android:name=".pencarianwisata"
+            android:exported="false" />
+        <activity
+            android:name=".pencariankuliner"
+            android:exported="false" />
+        <activity
+            android:name=".KulinerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".editprofile"
+            android:exported="false" />
+        <activity
+            android:name=".listwisata"
+            android:exported="true" />
         <activity
             android:name=".ForgotPassword3Activity"
             android:exported="false" />
@@ -36,7 +51,7 @@
             android:exported="true" />
         <activity
             android:name=".DetailKulinerEsDurianIkoGantinyoActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".DetailKulinerLamunOmbakActivity"
             android:exported="true" />
@@ -45,13 +60,15 @@
             android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".SplashScreenActivity"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".ForgotPassword1Activity"
@@ -61,22 +78,16 @@
             android:exported="false" />
         <activity
             android:name=".ForgotPassword2Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".ProfilLayoutActivity"
             android:exported="false" />
         <activity
             android:name=".RegisterActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".pulaupasumpahan"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+            android:exported="true" />
         <activity
             android:name=".pencarian2"
             android:exported="true" />
@@ -112,7 +123,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
