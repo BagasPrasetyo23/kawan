@@ -6,10 +6,7 @@ import android.os.Bundle
 import android.view.View
 import android.view.Window
 import android.view.WindowManager
-import android.widget.ImageView
-import android.widget.RelativeLayout
-import android.widget.SearchView
-import android.widget.TextView
+import android.widget.*
 import androidx.cardview.widget.CardView
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -19,6 +16,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         val imgprofile: ImageView = findViewById(R.id.imgprofile)
         imgprofile.setOnClickListener(this)
+        val edt: TextView = findViewById(R.id.edt)
+        edt.setOnClickListener(this)
         val imgwisata: ImageView = findViewById(R.id.imgwisata)
         imgwisata.setOnClickListener(this)
         val imgkuliner: ImageView = findViewById(R.id.imgkuliner)
@@ -56,6 +55,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             when (v.id) {
                 R.id.imgprofile -> {
                     val pindahIntent = Intent(this, ProfilLayoutActivity::class.java)
+                    startActivity(pindahIntent)
+                }
+                R.id.edt -> {
+                    val pindahIntent = Intent(this, pencarian1::class.java)
                     startActivity(pindahIntent)
                 }
                 R.id.imgwisata -> {

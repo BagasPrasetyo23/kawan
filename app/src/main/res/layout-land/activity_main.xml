@@ -97,21 +97,11 @@
                     android:id="@+id/search"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:searchIcon="@drawable/ic_ic_search"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/background_search"
                     app:iconifiedByDefault="false"
                     app:queryBackground="@null"
-                    android:background="@drawable/background_search" />
-
-                <TextView
-                    android:id="@+id/edt"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
-                    android:layout_marginLeft="50dp"
-                    android:background="@null"
-                    android:text="Temukan kuliner dan tempat wisata"
-                    android:textColor="@color/white"
-                    android:textSize="18sp" />
+                    app:queryHint="Temukan kuliner atau tempat wisata" />
             </RelativeLayout>
 
             <RelativeLayout
