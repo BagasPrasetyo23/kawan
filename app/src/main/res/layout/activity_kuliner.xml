@@ -82,7 +82,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:src="@drawable/esdurian" />
+                            android:src="@drawable/m_ikogantinyo_x4" />
 
                         <RelativeLayout
                             android:layout_below="@+id/img_1"
@@ -172,7 +172,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:src="@drawable/katupek" />
+                            android:src="@drawable/m_pitalah_x4" />
 
                         <RelativeLayout
                             android:layout_below="@+id/img_2"
@@ -261,8 +261,8 @@
                             android:id="@+id/img_3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/rumahmakan"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:src="@drawable/m_pauhpiaman_x4" />
 
                         <RelativeLayout
                             android:layout_below="@+id/img_3"
@@ -351,8 +351,8 @@
                             android:id="@+id/img_4"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/sate"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:src="@drawable/m_satedd_x4" />
 
                         <RelativeLayout
                             android:layout_below="@+id/img_4"
@@ -442,7 +442,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
-                            android:src="@drawable/warungkopi" />
+                            android:src="@drawable/m_wakopnanyo_x4" />
 
                         <RelativeLayout
                             android:layout_width="match_parent"
@@ -531,7 +531,7 @@
                             android:id="@+id/img_6"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/esduriangantinanlamo" />
+                            android:src="@drawable/m_gantinanlamo_x4" />
 
                         <RelativeLayout
                             android:layout_below="@+id/img_6"
@@ -620,8 +620,8 @@
                             android:id="@+id/img_7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/kulinerjembatansitinurbaya"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:src="@drawable/m_kulinerjamsit_x4" />
 
                         <RelativeLayout
                             android:layout_below="@+id/img_7"
@@ -710,8 +710,8 @@
                             android:id="@+id/img_8"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:src="@drawable/restoranlamunombak"
-                            android:layout_gravity="center"/>
+                            android:layout_gravity="center"
+                            android:src="@drawable/m_lamunombak_x4" />
 
                         <RelativeLayout
                             android:layout_below="@+id/img_8"

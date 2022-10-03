@@ -82,7 +82,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/lubuakrantiang" />
+                                android:src="@drawable/m_rantiang_x4" />
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -164,7 +164,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/lubuaktampuruang" />
+                                android:src="@drawable/m_tampuruang_x4" />
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -248,7 +248,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/lubuakhitam" />
+                                android:src="@drawable/m_hitam_x4" />
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -332,7 +332,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/bendunganniagara" />
+                                android:src="@drawable/m_niagara_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img4"
@@ -414,7 +414,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/jamsit" />
+                                android:src="@drawable/m_jamsit_x4" />
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -499,7 +499,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/masjidrayasumbar" />
+                                android:src="@drawable/m_masjidsumbar_x4" />
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -583,7 +583,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/pantaipadang" />
+                                android:src="@drawable/m_pantaipadang_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img7"
@@ -667,7 +667,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/pantaiairmanis" />
+                                android:src="@drawable/m_pantaiairmanis_x3" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img8"
@@ -751,7 +751,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/pulaupasumpahan" />
+                                android:src="@drawable/m_pulaupasumpahan_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img9"
@@ -833,7 +833,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/pulausirandah" />
+                                android:src="@drawable/m_pulausirandah_x4" />
 
                             <RelativeLayout
                                 android:layout_width="match_parent"

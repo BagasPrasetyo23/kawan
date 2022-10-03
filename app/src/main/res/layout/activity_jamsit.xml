@@ -588,7 +588,7 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@drawable/maps_jamsit" />
+                                android:background="@drawable/maps_jamsitx1" />
                         </androidx.cardview.widget.CardView>
                     </RelativeLayout>
 

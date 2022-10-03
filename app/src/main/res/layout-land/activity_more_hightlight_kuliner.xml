@@ -6,40 +6,47 @@
     android:layout_height="match_parent"
     tools:context=".More_Hightlight_Kuliner_Activity">
 
-    <RelativeLayout
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <RelativeLayout
+        <LinearLayout
             android:id="@+id/highlight_kuliner1"
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:layout_gravity="center"
-            android:orientation="vertical"
+            android:orientation="horizontal"
             android:background="#14BADF">
-
-            <ImageView
-                android:id="@+id/btn_back_profil"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="20dp"
-                android:src="@drawable/ic_back2" />
-
-
-            <TextView
-                android:id="@+id/txt_title"
+            <androidx.appcompat.widget.Toolbar
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:gravity="center"
-                android:text="Highlight Kuliner"
-                android:textColor="@color/white"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginLeft="16dp">
+                    <Button
+                        android:id="@+id/back"
+                        android:layout_gravity="center"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/ic_back2" />
+                    <TextView
+                        android:layout_gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Highlight Kuliner"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
-        </RelativeLayout>
+                </LinearLayout>
+
+            </androidx.appcompat.widget.Toolbar>
+        </LinearLayout>
 
         <ScrollView
             android:layout_width="match_parent"
@@ -82,7 +89,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/esdurian" />
+                                android:src="@drawable/m_ikogantinyo_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_1"
@@ -172,7 +179,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/katupek" />
+                                android:src="@drawable/m_pitalah_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_2"
@@ -261,8 +268,8 @@
                                 android:id="@+id/img_3"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/rumahmakan"
-                                android:layout_gravity="center"/>
+                                android:layout_gravity="center"
+                                android:src="@drawable/m_pauhpiaman_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_3"
@@ -351,8 +358,8 @@
                                 android:id="@+id/img_4"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/sate"
-                                android:layout_gravity="center"/>
+                                android:layout_gravity="center"
+                                android:src="@drawable/m_satedd_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_4"
@@ -442,7 +449,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center"
-                                android:src="@drawable/warungkopi" />
+                                android:src="@drawable/m_wakopnanyo_x4" />
 
                             <RelativeLayout
                                 android:layout_width="match_parent"
@@ -531,7 +538,7 @@
                                 android:id="@+id/img_6"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/esduriangantinanlamo" />
+                                android:src="@drawable/m_gantinanlamo_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_6"
@@ -620,8 +627,8 @@
                                 android:id="@+id/img_7"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/kulinerjembatansitinurbaya"
-                                android:layout_gravity="center"/>
+                                android:layout_gravity="center"
+                                android:src="@drawable/m_kulinerjamsit_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_7"
@@ -710,8 +717,8 @@
                                 android:id="@+id/img_8"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:src="@drawable/restoranlamunombak"
-                                android:layout_gravity="center"/>
+                                android:layout_gravity="center"
+                                android:src="@drawable/m_lamunombak_x4" />
 
                             <RelativeLayout
                                 android:layout_below="@+id/img_8"
@@ -788,7 +795,7 @@
 
 
 
-    </RelativeLayout>
+    </LinearLayout>
 
 
 

@@ -18,11 +18,9 @@ class airterjunlubuakrantiang : AppCompatActivity(), View.OnClickListener {
         val imageSlider = findViewById<ImageSlider>(R.id.imageslider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.lubuakrantiang1))
-        imageList.add(SlideModel(R.drawable.lubuakrantiang2))
-        imageList.add(SlideModel(R.drawable.lubuakrantiang3))
-        imageList.add(SlideModel(R.drawable.lubuakrantiang4))
-        imageList.add(SlideModel(R.drawable.lubuakrantiang5))
+        imageList.add(SlideModel(R.drawable.d_rantiang_x1))
+        imageList.add(SlideModel(R.drawable.d_rantiang2_x1))
+        imageList.add(SlideModel(R.drawable.d_rantiang3_x1))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

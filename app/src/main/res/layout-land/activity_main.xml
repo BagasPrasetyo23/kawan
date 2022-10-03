@@ -224,9 +224,11 @@
                 android:layout_marginRight="16dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+
                 <HorizontalScrollView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
+
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -248,7 +250,7 @@
                                     android:id="@+id/imgpasir"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/airterjunlubuaktampuruang" />
+                                    android:background="@drawable/m_tampuruang_x4" />
 
                                 <RelativeLayout
                                     android:id="@+id/textpasir"
@@ -340,7 +342,7 @@
                                     android:id="@+id/imgpasir1"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/airterjunlubuakrantiang" />
+                                    android:background="@drawable/m_rantiang_x4" />
 
                                 <RelativeLayout
                                     android:id="@+id/textpasir1"
@@ -434,7 +436,7 @@
                                     android:id="@+id/imgpasir2"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/airterjunlubukhitam" />
+                                    android:background="@drawable/m_hitam_x4" />
 
                                 <RelativeLayout
                                     android:id="@+id/textpasir2"
@@ -528,7 +530,7 @@
                                     android:id="@+id/imgpasir3"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:background="@drawable/sirandah0" />
+                                    android:background="@drawable/m_pulausirandah_x4" />
 
                                 <RelativeLayout
                                     android:id="@+id/textpasir3"
@@ -564,10 +566,10 @@
 
                                     <RelativeLayout
                                         android:id="@+id/jam3"
-                                        android:layout_alignParentBottom="true"
                                         android:layout_width="match_parent"
                                         android:layout_height="match_parent"
                                         android:layout_below="@+id/txtkm3"
+                                        android:layout_alignParentBottom="true"
                                         android:layout_centerHorizontal="true"
                                         android:layout_centerVertical="true"
                                         android:layout_marginTop="16dp">
@@ -611,7 +613,7 @@
                                     android:id="@+id/imgpasir4"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:background="@drawable/bendunganniagara" />
+                                    android:background="@drawable/m_niagara_x4" />
 
                                 <RelativeLayout
                                     android:id="@+id/textpasir4"

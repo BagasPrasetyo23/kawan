@@ -617,7 +617,7 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@drawable/maps_lubuakhitam" />
+                                android:background="@drawable/maps_airterjunlubuakhitam_x1" />
                         </androidx.cardview.widget.CardView>
                     </RelativeLayout>
 
