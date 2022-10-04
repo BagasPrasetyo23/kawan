@@ -13,11 +13,9 @@ class masjidrayasumbar : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageslider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.masjidraya1))
-        imageList.add(SlideModel(R.drawable.masjidraya2))
-        imageList.add(SlideModel(R.drawable.masjidraya3))
-        imageList.add(SlideModel(R.drawable.masjidraya4))
-        imageList.add(SlideModel(R.drawable.masjidraya5))
+        imageList.add(SlideModel(R.drawable.d_masjidrayasumbar2_x4))
+        imageList.add(SlideModel(R.drawable.d_masjidrayasumbar1_x4))
+        imageList.add(SlideModel(R.drawable.d_masjidrayasumbar3_x4))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

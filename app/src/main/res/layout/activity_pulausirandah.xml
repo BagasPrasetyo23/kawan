@@ -2217,7 +2217,7 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@drawable/maps_pulausirandahx1"/>
+                                android:background="@drawable/maps_pulausirandahx4"/>
                         </androidx.cardview.widget.CardView>
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"

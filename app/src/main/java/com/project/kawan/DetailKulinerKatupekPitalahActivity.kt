@@ -18,10 +18,10 @@ class DetailKulinerKatupekPitalahActivity : AppCompatActivity(), View.OnClickLis
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.katupekpitalahpurus3))
-        imageList.add(SlideModel(R.drawable.katupekpitalahurus31))
-        imageList.add(SlideModel(R.drawable.katupekpitalahurus32))
-        imageList.add(SlideModel(R.drawable.katupekpitalahurus33))
+        imageList.add(SlideModel(R.drawable.d_pitalah1_x4))
+        imageList.add(SlideModel(R.drawable.d_pitalah2_x4))
+        imageList.add(SlideModel(R.drawable.d_pitalah3_x4))
+
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

@@ -35,11 +35,10 @@ class pulausirandah : AppCompatActivity(), View.OnClickListener {
         val imageSlider = findViewById<ImageSlider>(R.id.imageslider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.sirandah1))
-        imageList.add(SlideModel(R.drawable.sirandah2))
-        imageList.add(SlideModel(R.drawable.sirandah3))
-        imageList.add(SlideModel(R.drawable.sirandah4))
-        imageList.add(SlideModel(R.drawable.sirandah5))
+        imageList.add(SlideModel(R.drawable.d_pulausirandah1_x4))
+        imageList.add(SlideModel(R.drawable.d_pulausirandah2_x4))
+        imageList.add(SlideModel(R.drawable.d_pulausirandah3_x4))
+
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
 
         expandBtn.setOnClickListener {

@@ -14,10 +14,10 @@ class DetailKulinerLamunOmbakActivity : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.rmlamunombak))
-        imageList.add(SlideModel(R.drawable.rmlamunombak1))
-        imageList.add(SlideModel(R.drawable.rmlamunombak2))
-        imageList.add(SlideModel(R.drawable.rmlamunombak3))
+        imageList.add(SlideModel(R.drawable.d_lamunombak1_x4))
+        imageList.add(SlideModel(R.drawable.d_lamunombak2_x4))
+        imageList.add(SlideModel(R.drawable.d_lamunombak3_x4))
+
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
 

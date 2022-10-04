@@ -13,10 +13,9 @@ class pulaupasumpahan : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageslider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.paulaupasumpahan1))
-        imageList.add(SlideModel(R.drawable.paulaupasumpahan2))
-        imageList.add(SlideModel(R.drawable.paulaupasumpahan3))
-        imageList.add(SlideModel(R.drawable.paulaupasumpahan4))
+        imageList.add(SlideModel(R.drawable.d_pulaupasumpahan3_x4))
+        imageList.add(SlideModel(R.drawable.d_pulaupasumpahan2_x4))
+        imageList.add(SlideModel(R.drawable.d_pulaupasumpahan1_x4))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

@@ -18,9 +18,9 @@ class DetailKulinerEsDurianIkoGantinyoActivity : AppCompatActivity(), View.OnCli
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.esdurianikogantinyo))
-        imageList.add(SlideModel(R.drawable.esdurianikogantinyo1))
-        imageList.add(SlideModel(R.drawable.esdurianikogantinyo2))
+        imageList.add(SlideModel(R.drawable.d_ikogantinyo1_x4))
+        imageList.add(SlideModel(R.drawable.d_ikogantinyo2_x4))
+        imageList.add(SlideModel(R.drawable.d_ikogantinyo3_x4))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

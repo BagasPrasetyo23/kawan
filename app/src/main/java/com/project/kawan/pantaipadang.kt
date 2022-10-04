@@ -13,11 +13,10 @@ class pantaipadang : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageslider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.pantaipadang1))
-        imageList.add(SlideModel(R.drawable.pantaipadang2))
-        imageList.add(SlideModel(R.drawable.pantaipadang3))
-        imageList.add(SlideModel(R.drawable.pantaipadang4))
-        imageList.add(SlideModel(R.drawable.pantaipadang5))
+        imageList.add(SlideModel(R.drawable.d_pantaipadang1_x4))
+        imageList.add(SlideModel(R.drawable.d_pantaipadang2_x4))
+        imageList.add(SlideModel(R.drawable.d_pantaipadang3_x4))
+
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

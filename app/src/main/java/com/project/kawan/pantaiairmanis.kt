@@ -13,11 +13,9 @@ class pantaiairmanis : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageslider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.pantaiairmanis1))
-        imageList.add(SlideModel(R.drawable.pantaiairmanis2))
-        imageList.add(SlideModel(R.drawable.pantaiairmanis3))
-        imageList.add(SlideModel(R.drawable.pantaiairmanis4))
-        imageList.add(SlideModel(R.drawable.pantaiairmanis5))
+        imageList.add(SlideModel(R.drawable.d_pantaiairmanis1_x4))
+        imageList.add(SlideModel(R.drawable.d_pantaiairmanis3_x4))
+        imageList.add(SlideModel(R.drawable.d_pantaiairmanis2_x4))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

@@ -18,10 +18,10 @@ class bendunganniagara : AppCompatActivity(),View.OnClickListener {
         val btn4 : Button = findViewById(R.id.btn4)
         btn4.setOnClickListener(this)
 
-        imageList.add(SlideModel(R.drawable.bendunganniagara1))
-        imageList.add(SlideModel(R.drawable.bendunganniagara2))
-        imageList.add(SlideModel(R.drawable.bendunganniagara3))
-        imageList.add(SlideModel(R.drawable.bendunganniagara4))
+        imageList.add(SlideModel(R.drawable.d_niagara1_x4))
+        imageList.add(SlideModel(R.drawable.d_niagara3_x4))
+        imageList.add(SlideModel(R.drawable.d_niagara2_x4))
+
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

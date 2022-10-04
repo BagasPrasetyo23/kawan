@@ -14,10 +14,10 @@ class DetailKulinerJamsitActivity : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.kulinerjamsit))
-        imageList.add(SlideModel(R.drawable.kulinerjamsit1))
-        imageList.add(SlideModel(R.drawable.kulinerjamsit2))
-        imageList.add(SlideModel(R.drawable.kulinerjamsit3))
+        imageList.add(SlideModel(R.drawable.d_kulinerjamsit2_x4))
+        imageList.add(SlideModel(R.drawable.d_kulinerjamsit1_x4))
+        imageList.add(SlideModel(R.drawable.d_kulinerjamsit3_x4))
+
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

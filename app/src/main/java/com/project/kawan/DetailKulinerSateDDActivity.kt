@@ -18,9 +18,9 @@ class DetailKulinerSateDDActivity : AppCompatActivity(), View.OnClickListener {
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.satedanguangdanguangsimpangkinolpondok))
-        imageList.add(SlideModel(R.drawable.satedanguangdanguangsimpangkinolpondok1))
-        imageList.add(SlideModel(R.drawable.satedanguangdanguangsimpangkinolpondok2))
+        imageList.add(SlideModel(R.drawable.d_satedd1_x4))
+        imageList.add(SlideModel(R.drawable.d_satedd2_x4))
+        imageList.add(SlideModel(R.drawable.d_satedd3_x4))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

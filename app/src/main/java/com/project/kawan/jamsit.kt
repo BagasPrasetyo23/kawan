@@ -13,11 +13,10 @@ class jamsit : AppCompatActivity() {
         val imageSlider = findViewById<ImageSlider>(R.id.imageslider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.jamsit1))
-        imageList.add(SlideModel(R.drawable.jamsit2))
-        imageList.add(SlideModel(R.drawable.jamsit3))
-        imageList.add(SlideModel(R.drawable.jamsit4))
-        imageList.add(SlideModel(R.drawable.jamsit5))
+        imageList.add(SlideModel(R.drawable.d_jamsit1_x4))
+        imageList.add(SlideModel(R.drawable.d_jamsit2_x4))
+        imageList.add(SlideModel(R.drawable.d_jamsit3_x4))
+
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

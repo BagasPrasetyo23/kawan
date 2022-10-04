@@ -18,10 +18,9 @@ class DetailKulinerPauhPiamanActivity : AppCompatActivity(), View.OnClickListene
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.rumahmakanpauhpiaman))
+        imageList.add(SlideModel(R.drawable.d_pauhpiaman1_x4))
         imageList.add(SlideModel(R.drawable.rumahmakanpauhpiaman1))
-        imageList.add(SlideModel(R.drawable.rumahmakanpauhpiaman2))
-        imageList.add(SlideModel(R.drawable.rumahmakanpauhpiaman3))
+        imageList.add(SlideModel(R.drawable.d_pauhpiaman3_x4))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

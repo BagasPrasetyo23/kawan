@@ -57,11 +57,11 @@ class MoreHighlightWisataActivity : AppCompatActivity(), View.OnClickListener {
                     startActivity(pindahIntent)
                 }
                 R.id.tampuruang ->{
-                    val pindahIntent = Intent(this,airterjunlubuakrantiang::class.java)
+                    val pindahIntent = Intent(this,airterjuntampuruang::class.java)
                     startActivity(pindahIntent)
                 }
                 R.id.hitam ->{
-                    val pindahIntent = Intent(this,airterjuntampuruang::class.java)
+                    val pindahIntent = Intent(this,airterjunlubuakhitam::class.java)
                     startActivity(pindahIntent)
                 }
                 R.id.niagara ->{

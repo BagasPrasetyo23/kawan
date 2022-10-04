@@ -18,10 +18,9 @@ class DetailKulinerWarkopNanYoActivity : AppCompatActivity(), View.OnClickListen
         val imageSlider = findViewById<ImageSlider>(R.id.imageSlider)
         val imageList = ArrayList<SlideModel>()
 
-        imageList.add(SlideModel(R.drawable.warungkopinanyo))
-        imageList.add(SlideModel(R.drawable.warungkopinanyo2))
-        imageList.add(SlideModel(R.drawable.warungkopinanyo1))
-        imageList.add(SlideModel(R.drawable.warungkopinanyo3))
+        imageList.add(SlideModel(R.drawable.d_warkop3_x4))
+        imageList.add(SlideModel(R.drawable.d_warkop1_x4))
+        imageList.add(SlideModel(R.drawable.d_warkop2_x4))
 
         imageSlider.setImageList(imageList, ScaleTypes.FIT)
     }

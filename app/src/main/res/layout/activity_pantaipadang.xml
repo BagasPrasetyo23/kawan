@@ -795,7 +795,7 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:background="@drawable/maps_pantaipadangx1" />
+                                android:background="@drawable/maps_pantaipadangx4" />
                         </androidx.cardview.widget.CardView>
                     </RelativeLayout>
 
