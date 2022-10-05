@@ -4,7 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageView
+import android.widget.*
+import androidx.appcompat.widget.SearchView
+import com.project.kawan.databinding.ActivityMainBinding
 
 
 class pencarian1 : AppCompatActivity(),View.OnClickListener {
@@ -13,6 +15,8 @@ class pencarian1 : AppCompatActivity(),View.OnClickListener {
         setContentView(R.layout.activity_pencarian1)
         val img1 : ImageView=findViewById(R.id.img1)
         img1.setOnClickListener(this)
+
+
     }
 
     override fun onClick(v: View?) {

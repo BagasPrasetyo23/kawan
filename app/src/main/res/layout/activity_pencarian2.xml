@@ -68,7 +68,6 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:visibility="gone"
                     android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"
                     android:id="@+id/lyrpencarian3"
@@ -88,7 +87,7 @@
                 </RelativeLayout>
 
                 <RelativeLayout
-                    android:visibility="gone"
+
                     android:id="@+id/lyrterakhir"
                     android:layout_centerVertical="true"
                     android:layout_centerHorizontal="true"

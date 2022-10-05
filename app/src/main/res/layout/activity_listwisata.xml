@@ -48,7 +48,6 @@
                     android:id="@+id/srcwisata"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    app:searchIcon="@drawable/ic_ic_search"
                     app:iconifiedByDefault="false"
                     app:queryHint="Temukan tempat wisata.."
                     android:background="@drawable/background_putih"

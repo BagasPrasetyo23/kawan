@@ -251,6 +251,7 @@
             </RelativeLayout>
 
             <LinearLayout
+                android:id="@+id/lyrlist"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
